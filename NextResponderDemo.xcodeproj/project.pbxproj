@@ -15,6 +15,9 @@
 		07CD205F21CB3ECC001F997F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD205E21CB3ECC001F997F /* main.m */; };
 		07CD206921CB3ECC001F997F /* NextResponderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD206821CB3ECC001F997F /* NextResponderDemoTests.m */; };
 		07CD207421CB3ECD001F997F /* NextResponderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD207321CB3ECD001F997F /* NextResponderDemoUITests.m */; };
+		07CD208321CB3F78001F997F /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD208221CB3F78001F997F /* CustomTableViewCell.m */; };
+		07CD208621CB3FE6001F997F /* SubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD208521CB3FE6001F997F /* SubView.m */; };
+		07CD208921CB400E001F997F /* UIResponder+nextResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD208821CB400E001F997F /* UIResponder+nextResponder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		07CD206F21CB3ECD001F997F /* NextResponderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextResponderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CD207321CB3ECD001F997F /* NextResponderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextResponderDemoUITests.m; sourceTree = "<group>"; };
 		07CD207521CB3ECD001F997F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CD208121CB3F78001F997F /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		07CD208221CB3F78001F997F /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		07CD208421CB3FE6001F997F /* SubView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubView.h; sourceTree = "<group>"; };
+		07CD208521CB3FE6001F997F /* SubView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubView.m; sourceTree = "<group>"; };
+		07CD208721CB400E001F997F /* UIResponder+nextResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+nextResponder.h"; sourceTree = "<group>"; };
+		07CD208821CB400E001F997F /* UIResponder+nextResponder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+nextResponder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +110,16 @@
 		07CD204E21CB3ECA001F997F /* NextResponderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				07CD208721CB400E001F997F /* UIResponder+nextResponder.h */,
+				07CD208821CB400E001F997F /* UIResponder+nextResponder.m */,
 				07CD204F21CB3ECA001F997F /* AppDelegate.h */,
 				07CD205021CB3ECA001F997F /* AppDelegate.m */,
 				07CD205221CB3ECA001F997F /* ViewController.h */,
 				07CD205321CB3ECA001F997F /* ViewController.m */,
+				07CD208121CB3F78001F997F /* CustomTableViewCell.h */,
+				07CD208221CB3F78001F997F /* CustomTableViewCell.m */,
+				07CD208421CB3FE6001F997F /* SubView.h */,
+				07CD208521CB3FE6001F997F /* SubView.m */,
 				07CD205521CB3ECA001F997F /* Main.storyboard */,
 				07CD205821CB3ECC001F997F /* Assets.xcassets */,
 				07CD205A21CB3ECC001F997F /* LaunchScreen.storyboard */,
@@ -264,7 +279,10 @@
 			files = (
 				07CD205421CB3ECA001F997F /* ViewController.m in Sources */,
 				07CD205F21CB3ECC001F997F /* main.m in Sources */,
+				07CD208321CB3F78001F997F /* CustomTableViewCell.m in Sources */,
 				07CD205121CB3ECA001F997F /* AppDelegate.m in Sources */,
+				07CD208921CB400E001F997F /* UIResponder+nextResponder.m in Sources */,
+				07CD208621CB3FE6001F997F /* SubView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
